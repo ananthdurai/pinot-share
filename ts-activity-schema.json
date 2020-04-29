@@ -1,0 +1,37 @@
+{
+  "schemaName": "ts-activity",
+  "dimensionFieldSpecs": [
+    {
+      "name": "team_id",
+      "dataType": "LONG"
+    },
+    {
+      "name": "user_id",
+      "dataType": "LONG"
+    },
+    {
+      "name": "enterprise_id",
+      "dataType": "LONG"
+    },
+    {
+      "name": "enterprise_user_id",
+      "dataType": "LONG"
+    },
+    {
+      "name": "enterprise_user_id",
+      "dataType": "LONG"
+    },
+    {
+      "name": "client",
+      "dataType": "STRING"
+    }
+  ],
+  "timeFieldSpec": {
+    "incomingGranularitySpec": {
+      "name": "timestamp_seconds",
+      "dataType": "LONG",
+      "timeFormat" : "EPOCH",
+      "timeType": "SECONDS"
+    }
+  }
+}
